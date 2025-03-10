@@ -1,0 +1,32 @@
+num = int(input("Enter num: "))
+sum = 0
+
+
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 10
+
+
+if num == sum:
+   print(num,"is aarmstrong")
+else:
+   print(num,"is not armstrong")
+
+
+
+# given_number = int(input("Enter a number"))
+
+# given_number=str(given_number)
+
+# string_length = len(given_number)
+# sum=0
+
+# for i in given_number:
+#     sum+=int(i)**string_length
+
+# if sum==int(given_number):
+#     print("Armstrong number")
+# else:
+#     print("Not armstrong no")
